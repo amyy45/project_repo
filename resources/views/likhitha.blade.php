@@ -6,7 +6,7 @@
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}"></link>
     <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
           integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
           referrerpolicy="no-referrer" rel="stylesheet"/>
