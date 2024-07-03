@@ -10,4 +10,8 @@ class HomeController extends Controller
     {
         return view('sneha');
     }
+    public function likhitha()
+    {
+        return view('likhitha');
+    }
 }

@@ -19,4 +19,5 @@ Route::get('/', function () {
 
 Route::controller(App\Http\Controllers\HomeController::class)->group(function(){
     Route::get('/sneha','sneha')->name('sneha');
+    Route::get('/likhitha','likhitha')->name('likhitha');
 });
